@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import{Goal}from './goal'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'practise';
+  title = 'Angular Catch-up';
+  public h2='My Goals'
+  
+  
+  constructor(){
+  }
 }
+
